@@ -24,7 +24,6 @@
   peer chaincode query -C mychannel -n idkey -c '{"Args":["queryKey","qwertyuiopasdfghjklzxcvbnm123456"]}'
   ```
   
-  ![image-20210821150120253](README.assets/image-20210821150120253.png)
 
 注意：重复插入同一id，会插入失败。
 
